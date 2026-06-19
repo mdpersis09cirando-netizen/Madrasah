@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrasah Diniyah Persis 09 Cirando</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- 1. NAVIGATION BAR -->
+    <nav class="bg-emerald-700 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <!-- Logo Bulat Hijau -->
+                    <div class="w-10 h-10 bg-white text-emerald-700 rounded-full flex items-center justify-center font-bold text-xl shadow">P</div>
+                    <div>
+                        <span class="font-bold block text-sm sm:text-base tracking-wide">MD PERSIS 09 CIRANDO</span>
+                        <span class="text-xs text-emerald-200 block -mt-1">Kadipaten, Tasikmalaya</span>
+                    </div>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 font-medium text-sm">
+                    <a href="#" class="hover:text-emerald-200 transition">Beranda</a>
+                    <a href="#profil" class="hover:text-emerald-200 transition">Profil</a>
+                    <a href="#akademik" class="hover:text-emerald-200 transition">Akademik</a>
+                    <a href="#ppdb" class="hover:text-emerald-200 transition">PPDB</a>
+                    <a href="#kontak" class="bg-amber-500 hover:bg-amber-600 px-4 py-1.5 rounded-full text-emerald-950 font-bold transition">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION (BANNER UTAMA) -->
+    <header class="relative bg-emerald-900 text-white overflow-hidden py-24 sm:py-32">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="relative max-w-5xl mx-auto px-4 text-center">
+            <span class="bg-emerald-800/80 text-emerald-300 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full border border-emerald-700">Official Website Madrasah</span>
+            <h1 class="text-3xl sm:text-5xl font-bold tracking-tight mt-6 max-w-3xl mx-auto leading-tight">
+                Menempa Generasi <span class="text-amber-400">Tafaqquh Fiddin</span>, Berakhlak Mulia, dan Tanggap Digital
+            </h1>
+            <p class="mt-6 text-base sm:text-lg text-emerald-100 max-w-2xl mx-auto leading-relaxed">
+                Selamat Datang di Website Resmi Madrasah Diniyah Persis 09 Cirando, Kadipaten, Tasikmalaya. Wadah Pendidikan Islam Berdasarkan Al-Qur'an dan As-Sunnah.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#ppdb" class="bg-amber-500 hover:bg-amber-600 text-emerald-950 font-bold px-8 py-3 rounded-xl shadow-lg transition text-center">Info Pendaftaran (PPDB)</a>
+                <a href="#profil" class="border border-emerald-500 hover:bg-emerald-800/50 font-semibold px-8 py-3 rounded-xl transition text-center">Pelajari Profil Kami</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. SAMBUTAN KEPALA MADRASAH -->
+    <section class="py-16 max-w-4xl mx-auto px-4">
+        <div class="bg-white p-8 sm:p-12 rounded-2xl shadow-xs border border-gray-100 flex flex-col md:flex-row gap-8 items-center">
+            <div class="w-32 h-32 bg-emerald-50 text-emerald-700 rounded-full flex-shrink-0 border-4 border-emerald-100 flex items-center justify-center font-bold text-center p-2">
+                Asatidz
+            </div>
+            <div>
+                <h2 class="text-xl font-bold text-gray-900 mb-2">Kata Sambutan</h2>
+                <p class="text-sm text-gray-500 font-semibold uppercase tracking-wider mb-4">Kepala Madrasah Diniyah Persis 09 Cirando</p>
+                <div class="text-gray-600 space-y-4 leading-relaxed text-sm sm:text-base italic">
+                    <p>"Assalamu’alaikum Warahmatullahi Wabarakatuh.</p>
+                    <p>Segala puji bagi Allah yang telah memberikan kita nikmat iman, Islam, dan ilmu. Di era digital ini, Madrasah Diniyah Persis 09 Cirando berkomitmen untuk tidak hanya membekali para santri dengan pemahaman agama Islam yang mendalam (tafahuq fiddin), tetapi juga karakter yang adaptif, bijak, dan berempati dalam kehidupan bermasyarakat termasuk di dunia digital.</p>
+                    <p>Melalui website ini, kami berharap silaturahmi, transparansi, dan informasi mengenai pendidikan putra-putri kita dapat terjalin dengan lebih baik. Selamat menjelajah wajah digital madrasah kami."</p>
+                    <p class="not-italic font-semibold text-gray-900 pt-2">— Wassalamu’alaikum Warahmatullahi Wabarakatuh.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. KEUNGGULAN MADRASAH -->
+    <section class="py-16 bg-emerald-50/50 border-y border-emerald-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">Mengapa Memilih Kami?</h2>
+                <p class="text-gray-500 mt-2 text-sm sm:text-base">Komitmen kami dalam memberikan pendidikan terbaik bagi generasi penerus umat.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-xs border border-gray-100">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold mb-4">01</div>
+                    <h3 class="font-bold text-gray-900 mb-2">Kurikulum Manhaj Persis</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Pendidikan akidah, ibadah, dan akhlak yang murni merujuk pada Al-Qur'an dan As-Sunnah.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xs border border-gray-100">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold mb-4">02</div>
+                    <h3 class="font-bold text-gray-900 mb-2">Asatidz Berkompeten</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Dibimbing oleh tenaga pendidik yang berdedikasi, kompeten, dan memahami psikologi anak.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xs border border-gray-100">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold mb-4">03</div>
+                    <h3 class="font-bold text-gray-900 mb-2">Pembiasaan Islami</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Fokus pada adab harian, hafalan Al-Qur'an (Tahfidz), doa, dan praktik ibadah yang benar.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-xs border border-gray-100">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold mb-4">04</div>
+                    <h3 class="font-bold text-gray-900 mb-2">Siap Hadapi Zaman</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Penanaman etika komunikasi dan literasi digital sejak dini demi membentengi santri di era modern.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SECTION VISI, MISI & TUJUAN -->
+    <section id="profil" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-emerald-700 text-xs font-bold uppercase tracking-widest bg-emerald-50 px-3 py-1 rounded-full">Mengenal Lebih Dekat</span>
+                <h2 class="text-3xl font-bold text-gray-900 mt-3 tracking-tight">Visi, Misi & Tujuan</h2>
+                <p class="text-gray-500 mt-2 text-sm sm:text-base">Arah pendidikan Madrasah Diniyah Persis 09 Cirando dalam mencetak generasi penerus umat.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
+                <!-- Visi -->
+                <div class="md:col-span-5 bg-gradient-to-br from-emerald-700 to-emerald-800 text-white p-8 rounded-2xl shadow-md flex flex-col justify-center relative overflow-hidden">
+                    <div class="absolute -right-6 -bottom-6 text-emerald-600/20 text-9xl font-serif select-none">“</div>
+                    <span class="text-emerald-300 text-xs font-bold uppercase tracking-wider block mb-3">Visi Utama</span>
+                    <blockquote class="text-xl sm:text-2xl font-semibold leading-relaxed tracking-wide italic">
+                        "Terwujudnya Generasi Santri yang Tafaqquh Fiddin, Berakhlakul Karimah, Mandiri, dan Bijak Digital Berlandaskan Al-Qur'an dan As-Sunnah."
+                    </blockquote>
+                </div>
+
+                <!-- Misi -->
+                <div class="md:col-span-7 bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                    <span class="text-emerald-700 text-xs font-bold uppercase tracking-wider block mb-4">Misi Kami</span>
+                    <ol class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <span class="w-6 h-6 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-xs flex-shrink-0 mt-0.5">1</span>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm sm:text-base">Pendidikan Akidah & Ibadah yang Murni</h4>
+                                <p class="text-gray-600 text-sm mt-0.5">Menyelenggarakan pendidikan Islam yang bersumber langsung pada kemurnian ajaran Al-Qur'an dan As-Sunnah sesuai manhaj Jam'iyyah Persatuan Islam.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="w-6 h-6 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-xs flex-shrink-0 mt-0.5">2</span>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm sm:text-base">Pembentukan Akhlakul Karimah</h4>
+                                <p class="text-gray-600 text-sm mt-0.5">Menanamkan adab, kesopanan, dan karakter Islami dalam kehidupan sehari-hari (baik di dunia nyata maupun dalam berinteraksi di dunia digital).</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="w-6 h-6 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-xs flex-shrink-0 mt-0.5">3</span>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm sm:text-base">Penguasaan Dasar Ilmu Syar'i (Tafaqquh Fiddin)</h4>
+                                <p class="text-gray-600 text-sm mt-0.5">Membekali santri dengan kemampuan membaca Al-Qur'an secara tartil, hafalan Juz 'Amma (Tahfidz), serta pemahaman dasar ilmu Fiqih, Hadits, Tafsir, dan Bahasa Arab.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="w-6 h-6 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center font-bold text-xs flex-shrink-0 mt-0.5">4</span>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm sm:text-base">Pengembangan Literasi & Empati Digital</h4>
+                                <p class="text-gray-600 text-sm mt-0.5">Mengenalkan pemanfaatan teknologi informasi secara positif dan menanamkan etika komunikasi yang bijak (Digital Empathy) sejak dini.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Tujuan -->
+            <div class="mt-12 bg-amber-50/60 p-8 rounded-2xl border border-amber-100">
+                <span class="text-amber-800 text-xs font-bold uppercase tracking-wider block mb-4">Tujuan Pendidikan</span>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700">
+                    <div class="flex items-start gap-2">
+                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
+                        <p>Melahirkan santri yang taat beribadah dengan tata cara yang sesuai dengan tuntunan Rasulullah SAW.</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
+                        <p>Mempersiapkan santri agar siap melanjutkan pendidikan ke jenjang yang lebih tinggi (seperti Pesantren Persis tingkat Tsanawiyah) dengan bekal agama yang matang.</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
+                        <p>Membentuk generasi muda yang memiliki benteng akidah yang kokoh dari pengaruh negatif lingkungan modern.</p>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
+                        <p>Melahirkan santri yang tidak gagap teknologi, namun tetap memegang teguh etika Islam saat bermedia sosial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SECTION AKADEMIK & KURIKULUM (UPDATED DENGAN HASIL REVISI) -->
+    <section id="akademik" class="py-20 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-emerald-700 text-xs font-bold uppercase tracking-widest bg-emerald-50 px-3 py-1 rounded-full">Program Pendidikan</span>
+                <h2 class="text-3xl font-bold text-gray-900 mt-3 tracking-tight">Kurikulum & Mata Pelajaran</h2>
+                <p class="text-gray-600 mt-4 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
+                    Madrasah Diniyah Persatuan Islam (Persis) 09 Cirando Kadipaten adalah lembaga pendidikan agama non-formal setingkat Madrasah Ibtidaiyah (MI) / Sekolah Dasar (SD). Madrasah ini dikelola secara swadaya melalui kerja sama erat dengan masyarakat, serta bernaung di bawah organisasi Jam'iyyah Persatuan Islam dari tingkat Pusat hingga dikelola langsung oleh Pimpinan Ranting / Jama'ah Cirando.
+                </p>
+            </div>
+
+            <!-- Grid Mata Pelajaran (Data dari Blanko Raport) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Rumpun Syar'iyah -->
+                <div class="bg-white p-6 rounded-2xl shadow-xs border border-gray-100">
+                    <div class="w-12 h-12 bg-emerald-700 text-white rounded-xl flex items-center justify-center font-bold text-lg mb-5">📖</div>
+                    <h3 class="text-lg font-bold text-gray-950 mb-3 border-b pb-2 border-gray-100">Al-Ulum Al-Syar'iyah</h3>
+                    <ul class="space-y-2.5 text-sm text-gray-600">
+                        <li class="flex flex-col"><span class="font-semibold text-gray-900">1. Al-Qur'an</span> <span class="text-xs text-emerald-700 font-medium">Sub-Kajian: Tilawah, Tajwid, Hifzhan, Terjemah</span></li>
+                        <li><span class="font-semibold text-gray-900">2. Al-Hadits</span></li>
+                        <li><span class="font-semibold text-gray-900">3. Tauhid</span></li>
+                        <li><span class="font-semibold text-gray-900">4. Akhlaq</span></li>
+                        <li class="flex flex-col"><span class="font-semibold text-gray-900">5. Syari'ah</span> <span class="text-xs text-emerald-700 font-medium">Sub-Kajian: Fiqih & Ushul Fiqih</span></li>
+                    </ul>
+                </div>
+
+                <!-- Rumpun Insaniyyah & Bahasa -->
+                <div class="bg-white p-6 rounded-2xl shadow-xs border border-gray-100">
+                    <div class="w-12 h-12 bg-amber-500 text-emerald-950 rounded-xl flex items-center justify-center font-bold text-lg mb-5">🌍</div>
+                    <h3 class="text-lg font-bold text-gray-950 mb-3 border-b pb-2 border-gray-100">Al-Ulum Al-Insaniyyah</h3>
+                    <ul class="space-y-2.5 text-sm text-gray-600">
+                        <li><span class="font-semibold text-gray-900">6. Tarikh Islam</span></li>
+                        <li class="flex flex-col"><span class="font-semibold text-gray-900">7. Bahasa Arab</span> <span class="text-xs text-amber-800 font-medium">Sub-Kajian: Qira'ah, Imla, Hiwar, Nahwu</span></li>
+                        <li><span class="font-semibold text-gray-900">8. Kewarganegaraan & IPS</span></li>
+                        <li><span class="font-semibold text-gray-900">9. Bahasa Indonesia</span></li>
+                        <li><span class="font-semibold text-gray-900">10. Bahasa Daerah (Sunda)</span></li>
+                    </ul>
+                </div>
+
+                <!-- Rumpun Umum & Sains -->
+                <div class="bg-white p-6 rounded-2xl shadow-xs border border-gray-100">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center font-bold text-lg mb-5">🔬</div>
+                    <h3 class="text-lg font-bold text-gray-950 mb-3 border-b pb-2 border-gray-100">Umum & Sains</h3>
+                    <ul class="space-y-2.5 text-sm text-gray-600">
+                        <li><span class="font-semibold text-gray-900">11. Matematika</span></li>
+                        <li><span class="font-semibold text-gray-900">12. IPA</span></li>
+                        <li><span class="font-semibold text-gray-900">13. Pendidikan Jasmani</span></li>
+                        <li><span class="font-semibold text-gray-900">14. Pendidikan Kesenian</span></li>
+                        <li class="mt-4 pt-3 border-t border-dashed border-gray-200">
+                            <span class="font-bold text-emerald-700 block">15 & 16. Program Unggulan</span> 
+                            <span class="text-xs text-gray-500">Materi penunjang karakter & adaptasi zaman khas Ranting Cirando.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. SECTION PPDB (PENDAFTARAN) -->
+    <section id="ppdb" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl p-8 sm:p-12 text-white shadow-xl text-center relative overflow-hidden">
+                <h2 class="text-2xl sm:text-4xl font-bold mb-4">Penerimaan Santri Baru (PPDB)</h2>
+                <p class="text-amber-100 mb-8 max-w-xl mx-auto text-sm sm:text-base">Mari bergabung bersama keluarga besar MD Persis 09 Cirando. Pendaftaran dibuka setiap menjelang tahun ajaran baru.</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left max-w-2xl mx-auto mb-8 text-sm">
+                    <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+                        <span class="font-bold block text-amber-200 text-xs uppercase mb-1">Langkah 1</span>
+                        Isi Formulir & Siapkan berkas (KK & Akta Kelahiran).
+                    </div>
+                    <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+                        <span class="font-bold block text-amber-200 text-xs uppercase mb-1">Langkah 2</span>
+                        Serahkan berkas ke kantor madrasah / panitia.
+                    </div>
+                    <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+                        <span class="font-bold block text-amber-200 text-xs uppercase mb-1">Langkah 3</span>
+                        Santri mulai mengikuti pembiasaan belajar.
+                    </div>
+                </div>
+                
+                <a href="#kontak" class="inline-block bg-emerald-900 text-white font-bold px-8 py-3.5 rounded-xl hover:bg-emerald-950 transition shadow">Hubungi Panitia Pendaftaran</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. SECTION KONTAK & LOKASI -->
+    <section id="kontak" class="py-20 bg-gray-900 text-gray-300 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <!-- Informasi Kontak -->
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-6">Hubungi Kami</h2>
+                    <p class="text-sm text-gray-400 mb-8 leading-relaxed">Punya pertanyaan seputar kurikulum, pendaftaran santri baru, atau ingin bersilaturahmi? Silakan hubungi kami atau kunjungi sekretariat pimpinan ranting.</p>
+                    
+                    <div class="space-y-4 text-sm">
+                        <div class="flex items-start gap-3">
+                            <span class="text-amber-400 font-bold">📍 Alamat:</span>
+                            <p>Kp. Cirando, Desa Kadipaten, Kecamatan Kadipaten, Kabupaten Tasikmalaya, Jawa Barat.</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-amber-400 font-bold">💼 Pengelola:</span>
+                            <p>Pimpinan Ranting (PR) / Jama'ah Persis Cirando</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-amber-400 font-bold">📱 Kontak / WA:</span>
+                            <p>+62 8xx-xxxx-xxxx (Admin Madrasah)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Placeholder -->
+                <div class="bg-gray-800 h-64 rounded-2xl border border-gray-700 flex flex-col items-center justify-center p-6 text-center">
+                    <span class="text-3xl mb-2">🗺️</span>
+                    <h3 class="font-bold text-white text-sm mb-1">Peta Lokasi MD Persis 09 Cirando</h3>
+                    <p class="text-xs text-gray-500 max-w-xs">Nanti di baris kode ini bisa kita ganti dengan kode embed resmi dari Google Maps Kp. Cirando Kadipaten.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-gray-500 py-8 text-center text-xs border-t border-gray-950">
+        <p>&copy; 2026 MD Persis 09 Cirando Kadipaten. All Rights Reserved.</p>
+        <p class="mt-1 text-gray-700">Dikembangkan untuk mendukung digitalisasi dakwah & pendidikan Jam'iyyah Persatuan Islam.</p>
+    </footer>
+
+</body>
+</html>
