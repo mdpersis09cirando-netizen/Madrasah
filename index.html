@@ -21,7 +21,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-white text-emerald-700 rounded-full flex items-center justify-center font-bold text-xl shadow">P</div>
+                    <!-- Logo Madrasah Resmi -->
+                    <img src="https://cdn.phototourl.com/free/2026-06-12-f9f56ce1-3d9f-44b7-acd6-c66091ffb1f8.png" alt="Logo MD Persis 09" class="w-10 h-10 object-contain rounded-sm">
                     <div>
                         <span class="font-bold block text-sm sm:text-base tracking-wide">MD PERSIS 09 CIRANDO</span>
                         <span class="text-xs text-emerald-200 block -mt-1">Kadipaten, Tasikmalaya</span>
@@ -31,7 +32,8 @@
                 <div class="hidden md:flex space-x-6 font-medium text-sm">
                     <a href="#" class="hover:text-emerald-200 transition">Beranda</a>
                     <a href="#profil" class="hover:text-emerald-200 transition">Profil</a>
-                    <a href="#akademik" class="hover:text-emerald-200 transition">Akademik</a>
+                    <a href="#asatidz" class="hover:text-emerald-200 transition">Asatidz & Tendik</a>
+                    <a href="#akademik" class="hover:text-emerald-200 transition">Kurikulum</a>
                     <a href="#ppdb" class="hover:text-emerald-200 transition">PPDB</a>
                     <a href="#kontak" class="bg-amber-500 hover:bg-amber-600 px-4 py-1.5 rounded-full text-emerald-950 font-bold transition">Kontak</a>
                 </div>
@@ -39,9 +41,9 @@
         </div>
     </nav>
 
-    <!-- 2. HERO SECTION (BANNER UTAMA) -->
-    <header class="relative bg-emerald-900 text-white overflow-hidden py-24 sm:py-32">
-        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <!-- 2. HERO SECTION WITH MADRASAH BACKGROUND -->
+    <header class="relative bg-cover bg-center text-white overflow-hidden py-24 sm:py-32" style="background-image: linear-gradient(to bottom, rgba(4, 47, 31, 0.85), rgba(2, 44, 29, 0.95)), url('https://i.ibb.co.com/0jmJ3j99/Gemini-Generated-Image-60gos360gos360go.png');">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
         
         <div class="relative max-w-5xl mx-auto px-4 text-center">
             <span class="bg-emerald-800/80 text-emerald-300 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full border border-emerald-700">Official Website Madrasah</span>
@@ -61,7 +63,6 @@
     <!-- 3. SAMBUTAN KEPALA MADRASAH -->
     <section class="py-16 max-w-4xl mx-auto px-4">
         <div class="bg-white p-8 sm:p-12 rounded-2xl shadow-xs border border-gray-100 flex flex-col md:flex-row gap-8 items-center">
-            <!-- Foto Kepala Madrasah Asli -->
             <img src="https://cdn.phototourl.com/free/2026-06-13-4472ecc4-866e-4465-b7c4-53a58c64cc59.png" alt="Foto Saefullah Anshary, S.Pd.I" class="w-32 h-32 object-cover rounded-full flex-shrink-0 border-4 border-emerald-100 shadow-xs">
             <div>
                 <h2 class="text-xl font-bold text-gray-900 mb-2">Kata Sambutan</h2>
@@ -76,7 +77,108 @@
         </div>
     </section>
 
-    <!-- 4. KEUNGGULAN MADRASAH -->
+    <!-- 4. SECTION DEWAN ASATIDZ & TENDIK -->
+    <section id="asatidz" class="py-20 bg-white border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-emerald-700 text-xs font-bold uppercase tracking-widest bg-emerald-50 px-3 py-1 rounded-full">Struktur Pengajar</span>
+                <h2 class="text-3xl font-bold text-gray-900 mt-3 tracking-tight">Dewan Asatidz & Wali Kelas</h2>
+                <p class="text-gray-500 mt-2 text-sm sm:text-base">Tenaga pendidik yang berdedikasi tinggi dalam membimbing santri di MD Persis 09 Cirando.</p>
+            </div>
+
+            <!-- Grid Personel -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Kepala Madrasah -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-xs flex flex-col items-center text-center">
+                    <img src="https://cdn.phototourl.com/free/2026-06-13-4472ecc4-866e-4465-b7c4-53a58c64cc59.png" alt="Saefullah Anshary, S.Pd.I" class="w-28 h-28 object-cover rounded-full border-4 border-emerald-600 mb-4 shadow-sm">
+                    <h3 class="font-bold text-gray-900 text-base sm:text-lg">Saefullah Anshary, S.Pd.I</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider bg-emerald-100 text-emerald-800 px-3 py-0.5 rounded-full mt-1.5">Kepala Madrasah</span>
+                    <p class="text-xs text-gray-500 mt-1">Wali Kelas: —</p>
+                    <div class="mt-4 pt-3 border-t border-dashed border-gray-200 w-full">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide block mb-1">Mengampu Mapel:</span>
+                        <p class="text-xs text-gray-700 font-medium">Tauhid, Al-Hadits, Ushul Fiqih</p>
+                    </div>
+                </div>
+
+                <!-- 1. Ustzh. Risma Afifah Rahmi -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-xs flex flex-col items-center text-center">
+                    <img src="https://i.ibb.co.com/BHhp95rz/image.png" alt="Risma Afifah Rahmi, S.Pd" class="w-28 h-28 object-cover rounded-full border-4 border-emerald-600 mb-4 shadow-sm" onerror="this.onerror=null; this.src='https://i.ibb.co.com/BHhp95rz/image.png';">
+                    <h3 class="font-bold text-gray-900 text-base sm:text-lg">Risma Afifah Rahmi, S.Pd</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full mt-1.5">Asatidz</span>
+                    <p class="text-xs text-emerald-700 font-bold mt-1">Wali Kelas: Kelas 1</p>
+                    <div class="mt-4 pt-3 border-t border-dashed border-gray-200 w-full">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide block mb-1">Mengampu Mapel:</span>
+                        <p class="text-xs text-gray-700 font-medium">Qiraah, Hiwar / Insya</p>
+                    </div>
+                </div>
+
+                <!-- 2. Ustzh. Yayu Lutfia -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-xs flex flex-col items-center text-center">
+                    <img src="https://cdn.phototourl.com/free/2026-06-13-e0098346-5c2e-46f3-ad97-1fccb1600da3.png" alt="Yayu Lutfia" class="w-28 h-28 object-cover rounded-full border-4 border-emerald-600 mb-4 shadow-sm">
+                    <h3 class="font-bold text-gray-900 text-base sm:text-lg">Yayu Lutfia</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full mt-1.5">Asatidz</span>
+                    <p class="text-xs text-emerald-700 font-bold mt-1">Wali Kelas: Kelas 2</p>
+                    <div class="mt-4 pt-3 border-t border-dashed border-gray-200 w-full">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide block mb-1">Mengampu Mapel:</span>
+                        <p class="text-xs text-gray-700 font-medium">Tarikh Islam, Kitabah / Imla</p>
+                    </div>
+                </div>
+
+                <!-- 3. Ustzh. Yulianti -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-xs flex flex-col items-center text-center">
+                    <img src="https://cdn.phototourl.com/free/2026-06-13-3399ca19-5521-4fa8-80f1-26d1c912ce7a.png" alt="Yulianti" class="w-28 h-28 object-cover rounded-full border-4 border-emerald-600 mb-4 shadow-sm">
+                    <h3 class="font-bold text-gray-900 text-base sm:text-lg">Yulianti</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full mt-1.5">Asatidz</span>
+                    <p class="text-xs text-emerald-700 font-bold mt-1">Wali Kelas: Kelas 3</p>
+                    <div class="mt-4 pt-3 border-t border-dashed border-gray-200 w-full">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide block mb-1">Mengampu Mapel:</span>
+                        <p class="text-xs text-gray-700 font-medium">Tauhid, Akhlaq, Hadits</p>
+                    </div>
+                </div>
+
+                <!-- 4. Ust. Entis Sutisna -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-xs flex flex-col items-center text-center">
+                    <img src="https://i.ibb.co.com/G34xv719/image.png" alt="Entis Sutisna" class="w-28 h-28 object-cover rounded-full border-4 border-emerald-600 mb-4 shadow-sm" onerror="this.onerror=null; this.src='https://i.ibb.co.com/G34xv719/image.png';">
+                    <h3 class="font-bold text-gray-900 text-base sm:text-lg">Entis Sutisna</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full mt-1.5">Asatidz</span>
+                    <p class="text-xs text-emerald-700 font-bold mt-1">Wali Kelas: Kelas 4</p>
+                    <div class="mt-4 pt-3 border-t border-dashed border-gray-200 w-full">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide block mb-1">Mengampu Mapel:</span>
+                        <p class="text-xs text-gray-700 font-medium">Tilawah, Tajwid, Hifzhan, Terjemah</p>
+                    </div>
+                </div>
+
+                <!-- 5. Ustzh. Ela, S.Pd -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-xs flex flex-col items-center text-center">
+                    <img src="https://cdn.phototourl.com/free/2026-06-13-7c78a094-9529-486c-9676-5fbd39811c6c.png" alt="Ela, S.Pd" class="w-28 h-28 object-cover rounded-full border-4 border-emerald-600 mb-4 shadow-sm">
+                    <h3 class="font-bold text-gray-900 text-base sm:text-lg">Ela, S.Pd</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full mt-1.5">Asatidz</span>
+                    <p class="text-xs text-emerald-700 font-bold mt-1">Wali Kelas: Kelas 5</p>
+                    <div class="mt-4 pt-3 border-t border-dashed border-gray-200 w-full">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide block mb-1">Mengampu Mapel:</span>
+                        <p class="text-xs text-gray-700 font-medium">Nahwu, Tashrif, I'rab</p>
+                    </div>
+                </div>
+
+                <!-- 6. Ustzh. Eva Hendrayani -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-xs flex flex-col items-center text-center mx-auto sm:col-span-2 lg:col-span-1 lg:w-full">
+                    <img src="https://i.ibb.co.com/4gKFzWRQ/image.png" alt="Eva Hendrayani" class="w-28 h-28 object-cover rounded-full border-4 border-emerald-600 mb-4 shadow-sm" onerror="this.onerror=null; this.src='https://i.ibb.co.com/4gKFzWRQ/image.png';">
+                    <h3 class="font-bold text-gray-900 text-base sm:text-lg">Eva Hendrayani</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full mt-1.5">Asatidz</span>
+                    <p class="text-xs text-emerald-700 font-bold mt-1">Wali Kelas: Kelas 6</p>
+                    <div class="mt-4 pt-3 border-t border-dashed border-gray-200 w-full">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide block mb-1">Mengampu Mapel:</span>
+                        <p class="text-xs text-gray-700 font-medium">Fikih, Ushul Fikih</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. KEUNGGULAN MADRASAH -->
     <section class="py-16 bg-emerald-50/50 border-y border-emerald-100">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center max-w-2xl mx-auto mb-12">
@@ -87,7 +189,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white p-6 rounded-xl shadow-xs border border-gray-100">
                     <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold mb-4">01</div>
-                    <h3 class="font-bold text-gray-900 mb-2">Kurikulum Manhap Persis</h3>
+                    <h3 class="font-bold text-gray-900 mb-2">Kurikulum Manhaj Persis</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Pendidikan akidah, ibadah, dan akhlak yang murni merujuk pada Al-Qur'an dan As-Sunnah.</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-xs border border-gray-100">
@@ -109,7 +211,7 @@
         </div>
     </section>
 
-    <!-- 5. SECTION VISI, MISI & TUJUAN -->
+    <!-- 6. SECTION VISI, MISI & TUJUAN -->
     <section id="profil" class="py-20 bg-white">
         <div class="max-w-5xl mx-auto px-4">
             <div class="text-center max-w-2xl mx-auto mb-16">
@@ -163,33 +265,10 @@
                     </ol>
                 </div>
             </div>
-
-            <!-- Tujuan -->
-            <div class="mt-12 bg-amber-50/60 p-8 rounded-2xl border border-amber-100">
-                <span class="text-amber-800 text-xs font-bold uppercase tracking-wider block mb-4">Tujuan Pendidikan</span>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700">
-                    <div class="flex items-start gap-2">
-                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
-                        <p>Melahirkan santri yang taat beribadah dengan tata cara yang sesuai dengan tuntunan Rasulullah SAW.</p>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
-                        <p>Mempersiapkan santri agar siap melanjutkan pendidikan ke jenjang yang lebih tinggi (seperti Pesantren Persis tingkat Tsanawiyah) dengan bekal agama yang matang.</p>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
-                        <p>Membentuk generasi muda yang memiliki benteng akidah yang kokoh dari pengaruh negatif lingkungan modern.</p>
-                    </div>
-                    <div class="flex items-start gap-2">
-                        <span class="text-emerald-600 font-bold mt-0.5">✓</span>
-                        <p>Melahirkan santri yang tidak gagap teknologi, namun tetap memegang teguh etika Islam saat bermedia sosial.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- 6. SECTION AKADEMIK & KURIKULUM -->
+    <!-- 7. SECTION AKADEMIK & KURIKULUM -->
     <section id="akademik" class="py-20 bg-gray-50 border-t border-gray-100">
         <div class="max-w-6xl mx-auto px-4">
             
@@ -201,7 +280,7 @@
                 </p>
             </div>
 
-            <!-- Grid Mata Pelajaran -->
+            <!-- Grid Rumpun Pelajaran (Sesuai Struktur Raport) -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Rumpun Syar'iyah -->
                 <div class="bg-white p-6 rounded-2xl shadow-xs border border-gray-100">
@@ -222,7 +301,7 @@
                     <h3 class="text-lg font-bold text-gray-950 mb-3 border-b pb-2 border-gray-100">Al-Ulum Al-Insaniyyah</h3>
                     <ul class="space-y-2.5 text-sm text-gray-600">
                         <li><span class="font-semibold text-gray-900">6. Tarikh Islam</span></li>
-                        <li class="flex flex-col"><span class="font-semibold text-gray-900">7. Bahasa Arab</span> <span class="text-xs text-amber-800 font-medium">Sub-Kajian: Qira'ah, Imla, Hiwar, Nahwu</span></li>
+                        <li class="flex flex-col"><span class="font-semibold text-gray-900">7. Bahasa Arab</span> <span class="text-xs text-amber-800 font-medium">Sub-Kajian: Qira'ah, Imla, Hiwar, Nahwu, Tashrif, I'rab</span></li>
                         <li><span class="font-semibold text-gray-900">8. Kewarganegaraan & IPS</span></li>
                         <li><span class="font-semibold text-gray-900">9. Bahasa Indonesia</span></li>
                         <li><span class="font-semibold text-gray-900">10. Bahasa Daerah (Sunda)</span></li>
@@ -248,7 +327,7 @@
         </div>
     </section>
 
-    <!-- 7. SECTION PPDB (PENDAFTARAN) -->
+    <!-- 8. SECTION PPDB (PENDAFTARAN) -->
     <section id="ppdb" class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4">
             <div class="bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl p-8 sm:p-12 text-white shadow-xl text-center relative overflow-hidden">
@@ -275,7 +354,7 @@
         </div>
     </section>
 
-    <!-- 8. SECTION KONTAK & LOKASI -->
+    <!-- 9. SECTION KONTAK & LOKASI -->
     <section id="kontak" class="py-20 bg-gray-900 text-gray-300 border-t border-gray-800">
         <div class="max-w-6xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
